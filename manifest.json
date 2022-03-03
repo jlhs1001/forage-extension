@@ -1,5 +1,12 @@
 {
     "name": "Forage Searcher",
     "description": "The Forage search tool. Let no information be hidden!",
-    "version": "0.0.0"
+    "version": "0.0.0",
+    "permissions": [""],
+    "content_scripts": [{
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["forage.js"],
+        "run_at": "document_end"
+    }],
+    "manifest_version": 3
 }
