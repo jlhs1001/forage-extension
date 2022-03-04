@@ -39,16 +39,15 @@ style.innerHTML = `
 }
 
 .forageSearchbarModal {
-    position: fixed !important;
+    position: fixed;
     z-index: 1000000 !important;
-    right: 25px !important;
-    top: 0 !important;
+    right: 25px;
+    top: 0;
     overflow: auto;
     border: solid 1px grey;
     background-color: white !important;
-    width: fit-content !important;
-    height: fit-content !important;
-    user-select: none !important;
+    width: fit-content;
+    user-select: none;
 }
 
 .forageSearchBar {
